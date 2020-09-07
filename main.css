@@ -1,0 +1,270 @@
+
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Roboto', 'Ariel', 'Merriweather', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #c7c7c7;
+  color: #252f76;
+  line-height: 1.8;
+  font-weight: 300;
+  position: relative;
+}
+
+p {
+  line-height: 1.2;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;  
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #252f76;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  object-fit: scale-down;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  text-align: center;
+  margin: 0;
+  object-fit: scale-down;
+}
+
+
+
+header {
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://i.ibb.co/XFTFwGG/stamp22-min-1.jpg) 50% 50% no-repeat;
+  padding: 2rem;
+}
+
+h3.sloganh2 {
+  padding-top: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-shadow: 5px, 10px, white;
+  font-variant: small-caps;
+  object-position: scale-down;
+  max-width: 500px;
+  letter-spacing: .3px;
+}
+
+img.cnhlogo {
+  background: rgba(255, 255, 255, 0.3);
+  max-width: 425px;
+  height: auto;
+  object-fit: scale-down;
+  max-width: 425px;
+  height: auto;
+  padding: 1rem;
+}
+
+
+
+/*============================navigation=======================
+===============================================================*/
+
+.nav {
+  background-color: white;
+  padding: 0;
+}
+
+.nav-item {
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 2rem;
+}
+
+.nav-link {
+  color: #252f76;
+}
+
+.nav-link:hover {
+  background-color: #252f76;
+  color: white;
+}
+
+.navbar-right {
+  padding-right: 2rem;
+}
+
+.nav-item1 {
+  color: blue;
+}
+/*============================parallax=======================
+===============================================================*/
+
+div.para1 {
+  background-image: url(https://i.ibb.co/wWjTfmQ/ch11-min.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.para2 {
+  background-image: url(https://i.ibb.co/HBT4mN8/hc1-min.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+
+/*============================about=======================
+===============================================================*/
+
+.about {
+  padding: 3rem;
+  text-align: center;
+  
+}
+
+.about h5 {
+  max-width: 75%;
+  margin: auto;
+}
+
+.pill {
+  height: 0;
+  border-top: 5px double #252f76;
+  width: 85%;
+}
+
+.sm-img {
+  max-width: 300px;
+}
+
+/*============================footer=======================
+===============================================================*/
+
+.footer {
+  background: #252f76;
+  color: white;
+  object-fit: scale-down;
+}
+
+.foot>a {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.address {
+  border-left: 5px double white;
+  height: auto;
+}
+
+.copy {
+  padding-top: 1rem;
+  font-size: 14px;
+}
+
+.rowcopy {
+  border-top: 5px double white;
+  text-align: center;
+}
+
+.menu {
+  text-align: right;
+  
+}
+
+.social a {
+  text-decoration: none;
+}
+
+ul.media li a {
+  display: inline;
+  padding: .5rem;
+  color: #252f76;
+}
+
+ul.media li a:hover {
+  color: grey;
+}
+
+/*============================contact============
+==============================================================================================*/
+
+.wood {
+  width: 100%;
+  margin: auto;
+  
+}
+
+.contform {
+  color:white;
+  border: white double 10px;
+  background: #252f76;
+}
+
+.text {
+  width: 100%;
+}
+
+
+/*============================about=======================
+===============================================================*/
+
+
+
+.col .row {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    overflow: hidden;
+  }
+
+  .col .row {
+    float: left;
+    width: 100%
+  }
+}
+
+
+
+/*============================about=======================
+===============================================================*/
+
+/*============================about=======================
+===============================================================*/
+
+/*============================about=======================
+===============================================================*/
+
+
+/*============================about=======================
+===============================================================*/
